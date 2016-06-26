@@ -1,6 +1,6 @@
 var sendgrid_username = process.env.SENDGRID_USERNAME;
 var sendgrid_password = process.env.SENDGRID_PASSWORD;
-// var to                = ['ak@pritle.com']
+var to                = ['example@example.com']
 
 
 var sendgrid   = require('sendgrid')(sendgrid_username, sendgrid_password);
