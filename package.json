@@ -1,0 +1,23 @@
+{
+  "name": "windguru",
+  "version": "1.0.0",
+  "description": "Simple app that sends an email through sendgrid with surf info\"",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/PaulvanMotman/windguru.git"
+  },
+  "author": "Paul van Motman",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/PaulvanMotman/windguru/issues"
+  },
+  "homepage": "https://github.com/PaulvanMotman/windguru#readme",
+  "dependencies": {
+    "dotenv": "^2.0.0",
+    "sendgrid": "^3.0.5"
+  }
+}
