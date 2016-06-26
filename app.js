@@ -1,9 +1,6 @@
-var dotenv = require('dotenv');
-dotenv.load();
-
-var sendgrid_username   = process.env.SENDGRID_USERNAME;
-var sendgrid_password   = process.env.SENDGRID_PASSWORD;
-var to                  = ['pcvanmotman@gmail.com', 'paulrules32@hotmail.com']
+var sendgrid_username = process.env.SENDGRID_USERNAME;
+var sendgrid_password = process.env.SENDGRID_PASSWORD;
+// var to                = ['ak@pritle.com']
 
 
 var sendgrid   = require('sendgrid')(sendgrid_username, sendgrid_password);
