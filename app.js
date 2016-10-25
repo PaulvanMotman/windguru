@@ -4,7 +4,7 @@ var sendgrid_username = process.env.SENDGRID_USERNAME;
 var sendgrid_password = process.env.SENDGRID_PASSWORD;
 
 // You can fill in your email here. In a working app this could point to an array of all the emails linked to a certain surf spot!
-var to                = ['example@example.com']
+var to                = ['svenvanhoorn@gmail.com']
 
 // Requiring sendgrid
 var sendgrid   = require('sendgrid')(sendgrid_username, sendgrid_password);
